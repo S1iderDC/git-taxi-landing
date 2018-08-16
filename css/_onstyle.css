@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Lato light";
+  src: url(../fonts/Lato-Light.ttf);
+}
+@font-face {
+  font-family: "Lato Regular";
+  src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: "Lato Hairline";
+  src: url(../fonts/Lato-Hairline.ttf);
+}
+@font-face {
+  font-family: "Lato Bold";
+  src: url(../fonts/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: "Six";
+  src: url(../fonts/SixCaps.ttf);
+}
+.buttonReadBlack {
+  border-radius: 7px;
+  background-color: #000000;
+  width: 166px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Six", sans-serif;
+  text-align: center;
+  transform: scaleX(1.0001);
+  border: 2px solid #000000 ;
+  text-transform: uppercase;
+  line-height: 50px;
+  letter-spacing: 3px;
+  outline: none;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.buttonReadYellow {
+  border-radius: 7px;
+  color: black;
+  font-size: 30px;
+  font-family: "Six", sans-serif;
+  text-align: center;
+  transform: scaleX(1.0001);
+  border: 2px solid #ffc61a;
+  text-transform: uppercase;
+  line-height: 50px;
+  letter-spacing: 1px;
+  background-color: #ffc61a;
+  width: 166px;
+  height: 50px;
+  outline: none;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}

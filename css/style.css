@@ -1,0 +1,1296 @@
+@font-face {
+  font-family: "Lato light";
+  src: url(../fonts/Lato-Light.ttf);
+}
+@font-face {
+  font-family: "Lato Regular";
+  src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: "Lato Hairline";
+  src: url(../fonts/Lato-Hairline.ttf);
+}
+@font-face {
+  font-family: "Lato Bold";
+  src: url(../fonts/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: "Six";
+  src: url(../fonts/SixCaps.ttf);
+}
+.buttonReadBlack {
+  border-radius: 7px;
+  background-color: #000000;
+  width: 166px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Six", sans-serif;
+  text-align: center;
+  transform: scaleX(1.0001);
+  border: 2px solid #000000 ;
+  text-transform: uppercase;
+  line-height: 50px;
+  letter-spacing: 3px;
+  outline: none;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.buttonReadYellow {
+  border-radius: 7px;
+  color: black;
+  font-size: 30px;
+  font-family: "Six", sans-serif;
+  text-align: center;
+  transform: scaleX(1.0001);
+  border: 2px solid #ffc61a;
+  text-transform: uppercase;
+  line-height: 50px;
+  letter-spacing: 1px;
+  background-color: #ffc61a;
+  width: 166px;
+  height: 50px;
+  outline: none;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato Regular", sans-serif;
+}
+body header {
+  background: url("../img/Layer 3.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: -20px;
+  height: 739px;
+  width: 100%;
+}
+body header .logo {
+  margin-left: 80px;
+  padding-top: 44px;
+  width: 157px;
+  float: left;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body header .logo {
+    float: none;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body header .logo {
+    float: none;
+  }
+}
+body header .logo p {
+  color: #ffffff;
+  font-size: 15.01px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: -1px;
+}
+body header .navMain {
+  font-family: "Lato Bold", sans-serif;
+  color: #ffffff;
+  font-size: 16.98px;
+  text-align: left;
+}
+body header .navMain .activNav {
+  border: 1px solid #ffc61a;
+  border-radius: 20px;
+  background: #ffc61a;
+  width: 96px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+}
+body header .navMain .activNav a {
+  color: black;
+}
+body header .navMain .activNav a:hover {
+  color: black;
+}
+body header .navMain ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 50px;
+  margin-right: 103px;
+  height: 20px;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body header .navMain ul {
+    justify-content: center;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body header .navMain ul {
+    padding-top: 0;
+  }
+}
+body header .navMain ul li {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+@media all and (min-width: 1200px) and (max-width: 1499px) {
+  body header .navMain ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body header .navMain ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+body header .navMain ul a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16.98px;
+  font-family: "Lato Bold", sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  line-height: 34px;
+}
+@media all and (min-width: 1200px) and (max-width: 1499px) {
+  body header .navMain ul a {
+    font-size: 16px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body header .navMain ul a {
+    font-size: 14px;
+  }
+}
+body header .navMain ul a:hover {
+  color: gray;
+  transition: 1s;
+}
+body header .headText {
+  display: block;
+  margin: 0 auto;
+}
+body header .headText .headTextTop {
+  color: #ffc61a;
+  font-size: 35.78px;
+  font-family: "Lato Bold", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+body header .headText .headTextPhone {
+  color: #ffffff;
+  font-size: 72.19px;
+  font-family: "Lato Bold", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body header .headText .headTextPhone {
+    font-size: 62px;
+  }
+}
+body header .headText .headTextSite {
+  color: #ffffff;
+  font-size: 19.86px;
+  font-family: "Lato Bold", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  margin-top: 15px;
+}
+body header .headPic {
+  text-align: center;
+  margin-top: 30px;
+  animation-name: myAnimation;
+  animation-duration: 3s;
+  position: relative;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body header .headPic img {
+    width: 600px;
+  }
+}
+@keyframes myAnimation {
+  from {
+    left: -1500px;
+  }
+  to {
+    left: 10px;
+  }
+}
+body .signCar {
+  background: #ffc713;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 545px 422px;
+  grid-gap: 264px;
+  padding-bottom: 130px;
+}
+@media all and (min-width: 1200px) and (max-width: 1499px) {
+  body .signCar {
+    grid-template-columns: 500px 370px;
+    grid-gap: 150px;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .signCar {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .signCar {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+body .signCar .topTextSign {
+  padding-top: 150px;
+  padding-left: 214px;
+  color: #000000;
+  font-size: 35.02px;
+  font-family: "Lato Bold", sans-serif;
+  text-transform: uppercase;
+}
+@media all and (min-width: 1200px) and (max-width: 1499px) {
+  body .signCar .topTextSign {
+    padding-left: 100px;
+    font-size: 30px;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .signCar .topTextSign {
+    padding-top: 0;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .signCar .topTextSign {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+body .signCar .trustText {
+  color: #100f0f;
+  font-size: 49.99px;
+  font-family: "Lato Bold", sans-serif;
+  text-transform: uppercase;
+  padding-left: 214px;
+  width: 545px;
+  padding-top: 20px;
+}
+@media all and (min-width: 1200px) and (max-width: 1499px) {
+  body .signCar .trustText {
+    padding-left: 100px;
+    font-size: 44px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .signCar .trustText {
+    padding-left: 0;
+    text-align: center;
+    width: auto;
+  }
+}
+body .signCar .mainTextSign {
+  color: #100f0f;
+  font-size: 18px;
+  font-family: "Lato Regular", sans-serif;
+  width: 554px;
+  padding-left: 214px;
+  padding-top: 44px;
+}
+@media all and (min-width: 1200px) and (max-width: 1499px) {
+  body .signCar .mainTextSign {
+    padding-left: 100px;
+    width: 500px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .signCar .mainTextSign {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .signCar .signCarLeft {
+    margin-top: -100px;
+  }
+}
+body .signCar .signCarLeft button {
+  border-radius: 7px;
+  background-color: #000000;
+  width: 166px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Six", sans-serif;
+  text-align: center;
+  transform: scaleX(1.0001);
+  border: 2px solid #000000 ;
+  text-transform: uppercase;
+  line-height: 50px;
+  letter-spacing: 3px;
+  outline: none;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+body .signCar .signCarLeft button {
+  margin-left: 214px;
+  margin-top: 60px;
+}
+@media all and (min-width: 1200px) and (max-width: 1499px) {
+  body .signCar .signCarLeft button {
+    margin-left: 100px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .signCar .signCarLeft button {
+    margin-left: 0;
+  }
+}
+body .signCar .signCarLeft button:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.8);
+  transition: 0.5s;
+}
+body .signCar .signCarLeft button:active {
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+}
+body .signCar .formSign {
+  margin-top: 155px;
+  margin-left: 260px;
+  width: 422px;
+  height: 472px;
+  box-shadow: 0 3px 10px #000000;
+}
+@media all and (min-width: 1200px) and (max-width: 1499px) {
+  body .signCar .formSign {
+    margin-left: 50px;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .signCar .formSign {
+    margin: 200px auto;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .signCar .formSign {
+    margin-left: 0;
+  }
+}
+body .signCar .formSign .formBack {
+  height: 395px;
+  width: 422px;
+  background: #ffffff;
+}
+body .signCar .formSign .formTop {
+  background-color: #171717;
+  color: #ffffff;
+  font-size: 34.43px;
+  font-family: "Lato Bold", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  width: 422px;
+  height: 77px;
+  line-height: 77px;
+}
+body .signCar .formSign .formTop span {
+  font-family: "Lato Bold", sans-serif;
+  color: #ffc61a;
+  font-size: 34.43px;
+  text-align: center;
+  text-transform: uppercase;
+}
+body .signCar .formSign form .lastInp {
+  width: 380px;
+}
+body .signCar .formSign form input {
+  display: block;
+  float: left;
+  border: none;
+  border-bottom: 3px solid #e4e4e4;
+  width: 180px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+  height: 60px;
+}
+body .signCar .formSign form button {
+  border-radius: 7px;
+  background-color: #000000;
+  width: 166px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Six", sans-serif;
+  text-align: center;
+  transform: scaleX(1.0001);
+  border: 2px solid #000000 ;
+  text-transform: uppercase;
+  line-height: 50px;
+  letter-spacing: 3px;
+  outline: none;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+body .signCar .formSign form button {
+  width: 376px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 35px;
+}
+body .signCar .formSign form button:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.8);
+  transition: 0.5s;
+}
+body .signCar .formSign form button:active {
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+}
+body .ourTariff {
+  width: 100%;
+}
+body .ourTariff .tarifHead {
+  margin: 0 auto;
+  padding-top: 63px;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .ourTariff .tarifHead {
+    padding-top: 20px;
+  }
+}
+body .ourTariff .tarifHead .tarifHeadTop {
+  color: #ffc61a;
+  font-size: 35.02px;
+  /* Приближение из-за подстановки шрифтов */
+  font-family: "Lato Bold", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+body .ourTariff .tarifHead .tarifHeadUnderTop {
+  color: #000000;
+  font-size: 43.93px;
+  font-family: "Lato Bold", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+body .ourTariff .unitsTarif {
+  display: grid;
+  grid-template-columns: 373px 373px 373px;
+  grid-gap: 35px;
+  margin-top: 133px;
+  justify-content: center;
+}
+@media all and (min-width: 1200px) and (max-width: 1499px) {
+  body .ourTariff .unitsTarif {
+    grid-template-columns: 353px 353px 353px;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .ourTariff .unitsTarif {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    margin-top: 33px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .ourTariff .unitsTarif {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    margin-top: 33px;
+  }
+}
+body .ourTariff .unitsTarif .tariffImg {
+  margin-top: -80px;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .ourTariff .unitsTarif .tariffImg {
+    margin-top: 50px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .ourTariff .unitsTarif .tariffImg {
+    margin-top: 50px;
+  }
+}
+body .ourTariff .unitsTarif .unitTop {
+  color: #000000;
+  font-size: 30.42px;
+  font-family: "Lato Bold", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .ourTariff .unitsTarif .unitTop {
+    margin-top: -150px;
+    margin-left: 250px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .ourTariff .unitsTarif .unitTop {
+    margin-top: -150px;
+    margin-left: 250px;
+  }
+}
+body .ourTariff .unitsTarif .unitText {
+  color: #100f0f;
+  font-size: 18px;
+  font-family: "Lato Regular", sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  width: 303px;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .ourTariff .unitsTarif .unitText {
+    margin-left: 480px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .ourTariff .unitsTarif .unitText {
+    margin-left: 400px;
+  }
+}
+body .ourTariff .unitsTarif .unitPrice {
+  color: #ffc61a;
+  font-size: 43.93px;
+  font-family: "Lato Bold", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 35px;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .ourTariff .unitsTarif .unitPrice {
+    margin-left: 250px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .ourTariff .unitsTarif .unitPrice {
+    margin-left: 250px;
+  }
+}
+body .ourTariff .unitsTarif .unit1,
+body .ourTariff .unitsTarif .unit2,
+body .ourTariff .unitsTarif .unit3 {
+  background-color: #f5f4f2;
+  height: 424px;
+}
+body .ourTariff .unitsTarif button {
+  border-radius: 7px;
+  color: black;
+  font-size: 30px;
+  font-family: "Six", sans-serif;
+  text-align: center;
+  transform: scaleX(1.0001);
+  border: 2px solid #ffc61a;
+  text-transform: uppercase;
+  line-height: 50px;
+  letter-spacing: 1px;
+  background-color: #ffc61a;
+  width: 166px;
+  height: 50px;
+  outline: none;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+body .ourTariff .unitsTarif button {
+  margin-left: 104px;
+  margin-right: 104px;
+  margin-top: 10px;
+}
+body .ourTariff .unitsTarif button:hover {
+  cursor: pointer;
+  background: #ffaf16;
+  transition: 0.5s;
+}
+body .ourTariff .unitsTarif button:active {
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+}
+body .ourTariff .unitsTarif .activeTarif {
+  background-color: #ffc713;
+}
+body .ourTariff .unitsTarif .activeTarif .rectangle {
+  width: 0;
+  height: 0;
+  border-bottom: 70px solid black;
+  border-left: 70px solid transparent;
+  float: right;
+  margin-top: -56px;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .ourTariff .unitsTarif .activeTarif .rectangle {
+    margin-top: 56px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .ourTariff .unitsTarif .activeTarif .rectangle {
+    margin-top: 56px;
+  }
+}
+body .ourTariff .unitsTarif .activeTarif .rectangle .fa-star {
+  clear: both;
+  color: #ffc61a;
+  margin-left: -35px;
+  margin-top: 30px;
+}
+body .ourTariff .unitsTarif .activeTarif .unitPrice {
+  color: black;
+}
+body .ourTariff .unitsTarif .activeTarif button {
+  border-radius: 7px;
+  background-color: #000000;
+  width: 166px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Six", sans-serif;
+  text-align: center;
+  transform: scaleX(1.0001);
+  border: 2px solid #000000 ;
+  text-transform: uppercase;
+  line-height: 50px;
+  letter-spacing: 3px;
+  outline: none;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+body .ourTariff .unitsTarif .activeTarif button:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.8);
+  transition: 0.5s;
+}
+body .ourTariff .unitsTarif .activeTarif button:active {
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+}
+body .ourPrincip {
+  background: url("../img/PLace BG image.jpg") no-repeat center center;
+  background-size: cover;
+  margin-top: 77px;
+  width: 100%;
+  padding-bottom: 30px;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .ourPrincip {
+    margin-top: 0;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .ourPrincip {
+    margin-top: 0;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .ourPrincip {
+    background: url("../img/PLace BG image.jpg") no-repeat right;
+    background-size: cover;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .ourPrincip {
+    background: url("../img/PLace BG image.jpg") no-repeat right;
+    background-size: cover;
+  }
+}
+body .ourPrincip .principHead {
+  margin: 0 auto;
+}
+body .ourPrincip .principHead .principTop {
+  padding-top: 81px;
+  font-family: "Lato Bold", sans-serif;
+  font-size: 35.02px;
+  text-align: center;
+  color: #ffc61a;
+  text-transform: uppercase;
+}
+body .ourPrincip .principHead .principUnderTop {
+  color: #ffffff;
+  font-size: 43.93px;
+  font-family: "Lato Bold", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+body .ourPrincip .principMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: space-between;
+  margin-top: 100px;
+  width: 100%;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .ourPrincip .principMain {
+    grid-template-columns: 1fr;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .ourPrincip .principMain {
+    grid-template-columns: 1fr;
+  }
+}
+body .ourPrincip .principMain .principUnit {
+  display: block;
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+@media all and (min-width: 1200px) and (max-width: 1499px) {
+  body .ourPrincip .principMain .principUnit {
+    margin-left: 100px;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .ourPrincip .principMain .principUnit {
+    margin: 50px auto;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .ourPrincip .principMain .principUnit {
+    margin: 20px 40px;
+  }
+}
+body .ourPrincip .principMain .principUnit .principUnitCircle {
+  border-radius: 50%;
+  background-color: #ffc713;
+  width: 81px;
+  height: 81px;
+  float: left;
+  text-align: center;
+  line-height: 92px;
+}
+body .ourPrincip .principMain .principUnit .principUnitTop {
+  color: #ffc61a;
+  font-size: 25.01px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: 120px;
+}
+body .ourPrincip .principMain .principUnit .principUnitText {
+  color: #ffffff;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  text-align: left;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+body .ourPrincip button {
+  border-radius: 7px;
+  color: black;
+  font-size: 30px;
+  font-family: "Six", sans-serif;
+  text-align: center;
+  transform: scaleX(1.0001);
+  border: 2px solid #ffc61a;
+  text-transform: uppercase;
+  line-height: 50px;
+  letter-spacing: 1px;
+  background-color: #ffc61a;
+  width: 166px;
+  height: 50px;
+  outline: none;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+body .ourPrincip button {
+  margin-left: 45%;
+}
+body .ourPrincip button:hover {
+  cursor: pointer;
+  background: #ffaf16;
+  transition: 0.5s;
+}
+body .ourPrincip button:active {
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+}
+body .ourApp {
+  width: 100%;
+}
+body .ourApp .appHead {
+  margin: 0 auto;
+}
+body .ourApp .appHead .appTop {
+  padding-top: 81px;
+  font-family: "Lato Bold", sans-serif;
+  font-size: 35.02px;
+  text-align: center;
+  color: #ffc61a;
+  text-transform: uppercase;
+}
+body .ourApp .appHead .appUnderTop {
+  color: #000000;
+  font-size: 43.93px;
+  font-family: "Lato Bold", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+body .ourApp .appMainAll {
+  display: flex;
+  justify-content: center;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .ourApp .appMainAll {
+    flex-direction: column;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .ourApp .appMainAll {
+    flex-direction: column;
+  }
+}
+body .ourApp .appMainAll .appMain {
+  width: 450px;
+  margin-left: -100px;
+  margin-top: 40px;
+}
+@media all and (min-width: 1200px) and (max-width: 1499px) {
+  body .ourApp .appMainAll .appMain {
+    margin-left: 50px;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .ourApp .appMainAll .appMain {
+    margin: 0 auto;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .ourApp .appMainAll .appMain {
+    margin: 0 auto;
+  }
+}
+body .ourApp .appMainAll .appMain h4 {
+  color: #000000;
+  font-size: 25.49px;
+  font-family: "Lato Bold", sans-serif;
+  text-align: left;
+}
+body .ourApp .appMainAll .appMain p {
+  color: #100f0f;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-family: "Lato Regular", sans-serif;
+  text-align: left;
+}
+body .ourApp .appMainAll .appMain .btnGoogle {
+  background: #100f0f;
+  background: url("../img/Layer 2.png") no-repeat;
+  width: 210px;
+  height: 65px;
+  margin-top: 30px;
+  outline: none;
+  box-shadow: 1px 5px 10px #000000;
+  border: 1px solid #000000;
+  border-radius: 50px;
+}
+body .ourApp .appMainAll .appMain .btnGoogle:hover {
+  cursor: pointer;
+  transform: rotateZ(5grad);
+}
+body .ourApp .appMainAll .appMain .btnGoogle:active {
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+}
+body .ourApp .appMainAll .appMain .btnApple {
+  background: url("../img/Layer 1.png") no-repeat;
+  width: 210px;
+  height: 65px;
+  margin-left: 10px;
+  outline: none;
+  box-shadow: 1px 5px 10px #000000;
+  border: 1px solid #000000;
+  border-radius: 50px;
+}
+body .ourApp .appMainAll .appMain .btnApple:hover {
+  cursor: pointer;
+  transform: rotateZ(-5grad);
+}
+body .ourApp .appMainAll .appMain .btnApple:active {
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+}
+body .ourApp .appMainAll .appImg {
+  width: 500px;
+  height: 466px;
+  background: url("../img/Place App Screen here.png") no-repeat right;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+body .ourClient {
+  width: 100%;
+  background: url("../img/Place your Image.jpg") no-repeat center;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+body .ourClient .clientHead {
+  margin: 0 auto;
+  padding-top: 20px;
+}
+body .ourClient .clientHead .clientTop {
+  padding-top: 81px;
+  font-family: "Lato Bold", sans-serif;
+  font-size: 35.02px;
+  text-align: center;
+  color: #ffc61a;
+  text-transform: uppercase;
+}
+body .ourClient .clientHead .clientUnderTop {
+  color: #ffffff;
+  font-size: 43.93px;
+  font-family: "Lato Bold", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+body .ourClient .clientUnitAll {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 105px;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .ourClient .clientUnitAll {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .ourClient .clientUnitAll {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+body .ourClient .clientUnitAll .clientLeft {
+  background-color: #040707;
+  border-radius: 40px;
+  padding-bottom: 20px;
+  margin-left: 30px;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .ourClient .clientUnitAll .clientLeft {
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .ourClient .clientUnitAll .clientLeft {
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+}
+body .ourClient .clientUnitAll .clientLeft p {
+  color: #ffffff;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-family: "Lato Regular", sans-serif;
+  text-align: left;
+  margin-left: 70px;
+  margin-top: 42px;
+  width: 459px;
+}
+@media all and (min-width: 1500px) and (max-width: 1750px) {
+  body .ourClient .clientUnitAll .clientLeft p {
+    margin-left: 50px;
+    width: 400px;
+  }
+}
+@media all and (min-width: 1200px) and (max-width: 1499px) {
+  body .ourClient .clientUnitAll .clientLeft p {
+    margin-left: 50px;
+    width: 400px;
+  }
+}
+body .ourClient .clientUnitAll .clientRight {
+  background-color: #040707;
+  border-radius: 30px;
+  margin-left: -600px;
+  padding-bottom: 20px;
+}
+@media all and (min-width: 1500px) and (max-width: 1750px) {
+  body .ourClient .clientUnitAll .clientRight {
+    margin-left: 0;
+  }
+}
+@media all and (min-width: 1200px) and (max-width: 1499px) {
+  body .ourClient .clientUnitAll .clientRight {
+    margin-left: 0;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .ourClient .clientUnitAll .clientRight {
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 40px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body .ourClient .clientUnitAll .clientRight {
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 80px;
+  }
+}
+body .ourClient .clientUnitAll .clientRight p {
+  color: #ffffff;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-family: "Lato Regular", sans-serif;
+  text-align: left;
+  margin-left: 70px;
+  margin-top: 42px;
+  width: 459px;
+}
+@media all and (min-width: 1500px) and (max-width: 1750px) {
+  body .ourClient .clientUnitAll .clientRight p {
+    margin-left: 50px;
+    width: 400px;
+  }
+}
+@media all and (min-width: 1200px) and (max-width: 1499px) {
+  body .ourClient .clientUnitAll .clientRight p {
+    margin-left: 50px;
+    width: 400px;
+  }
+}
+body .ourClient .clientUnitAll .clientProfile .clientImg {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background: url("../img/Layer 6.png") no-repeat center;
+  background-size: cover;
+  float: left;
+  margin-left: 70px;
+  margin-top: 24px;
+}
+body .ourClient .clientUnitAll .clientProfile .nameClient {
+  line-height: 74px;
+  color: #ffc61a;
+  font-size: 25px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: 164px;
+}
+body .ourClient .clientUnitAll .clientProfile .clientProf {
+  color: #ffffff;
+  font-size: 18.03px;
+  font-family: "Lato Bold", sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: 164px;
+  margin-top: -20px;
+}
+body .ourPhone {
+  background-color: #ffc713;
+  width: 100%;
+  height: 286px;
+  text-align: center;
+}
+body .ourPhone .phoneTop {
+  padding-top: 73px;
+  color: #000000;
+  font-size: 35.02px;
+  font-family: "Lato Bold", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .ourPhone .phoneTop {
+    font-size: 29px;
+  }
+}
+body .ourPhone .phoneNumber {
+  color: #000000;
+  font-size: 76.58px;
+  font-family: "Lato Bold", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body .ourPhone .phoneNumber {
+    font-size: 65px;
+  }
+}
+body footer {
+  width: 100%;
+  height: 490px;
+  background: #030100;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body footer {
+    height: auto;
+  }
+}
+body footer .footMain {
+  display: grid;
+  grid-template-columns: 340px 340px 340px;
+  grid-gap: 100px;
+  justify-content: center;
+}
+@media all and (min-width: 1200px) and (max-width: 1499px) {
+  body footer .footMain {
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 70px;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  body footer .footMain {
+    grid-template-columns: 250px 250px 250px;
+    grid-gap: 50px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body footer .footMain {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+body footer .footMain .hubFoot {
+  margin-top: 50px;
+}
+body footer .footMain .hubFoot .hubFootTop {
+  border-bottom: 8px solid #ffc61a;
+  color: #ffffff;
+  font-size: 25.07px;
+  font-family: "Lato Bold", sans-serif;
+  text-align: left;
+  line-height: 90px;
+  text-transform: uppercase;
+}
+body footer .footMain .hubFoot .hubFootText {
+  color: #ffffff;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-family: "Lato Regular", sans-serif;
+  text-align: left;
+  margin-top: 46px;
+  margin-left: 6px;
+}
+body footer .footMain .hubFoot .hubFootSoc {
+  margin-top: 39px;
+  font-size: 20px;
+  /* Приближение из-за подстановки шрифтов */
+  font-family: "Lato Regular", sans-serif;
+  text-align: left;
+}
+body footer .footMain .hubFoot .hubFootSoc a {
+  color: #ffc61a;
+  text-decoration: none;
+  margin-right: 20px;
+}
+body footer .footMain .hubFoot .hubFootSoc i:hover {
+  transition-duration: 0.3s;
+  transform: scale(2, 2);
+}
+body footer .footMain .downloadFoot {
+  margin-top: 50px;
+}
+body footer .footMain .downloadFoot .downFootTop {
+  border-bottom: 8px solid #ffc61a;
+  color: #ffffff;
+  font-size: 25.07px;
+  font-family: "Lato Bold", sans-serif;
+  text-align: left;
+  line-height: 90px;
+  text-transform: uppercase;
+}
+body footer .footMain .downloadFoot .downFootText {
+  color: #ffffff;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-family: "Lato Regular", sans-serif;
+  text-align: left;
+  margin-top: 46px;
+  margin-left: 6px;
+}
+body footer .footMain .downloadFoot .androidUsers {
+  font-size: 20px;
+  /* Приближение из-за подстановки шрифтов */
+  font-family: "Lato Regular", sans-serif;
+  text-align: left;
+  margin-top: 40px;
+}
+body footer .footMain .downloadFoot .androidUsers a {
+  text-decoration: none;
+  color: #ffc61a;
+}
+body footer .footMain .downloadFoot .androidUsers .fa-android {
+  color: #ffffff;
+  margin-left: 30px;
+}
+body footer .footMain .downloadFoot .appleUsers {
+  font-size: 20px;
+  /* Приближение из-за подстановки шрифтов */
+  font-family: "Lato Regular", sans-serif;
+  text-align: left;
+  margin-top: 10px;
+}
+body footer .footMain .downloadFoot .appleUsers a {
+  text-decoration: none;
+  color: #ffc61a;
+}
+body footer .footMain .downloadFoot .appleUsers .fa-apple {
+  color: #ffffff;
+  text-align: right;
+  margin-left: 70px;
+}
+body footer .footMain .contactFoot {
+  margin-top: 50px;
+}
+body footer .footMain .contactFoot .contactFootTop {
+  border-bottom: 8px solid #ffc61a;
+  color: #ffffff;
+  font-size: 25.07px;
+  font-family: "Lato Bold", sans-serif;
+  text-align: left;
+  line-height: 90px;
+  text-transform: uppercase;
+}
+body footer .footMain .contactFoot .adressFoot {
+  margin-top: 46px;
+}
+body footer .footMain .contactFoot .adressFoot p {
+  overflow: hidden;
+}
+body footer .footMain .contactFoot .adressFoot,
+body footer .footMain .contactFoot .phoneFoot,
+body footer .footMain .contactFoot .mailFoot,
+body footer .footMain .contactFoot .siteFoot {
+  color: #ffffff;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-family: "Lato Regular", sans-serif;
+  text-align: left;
+  margin-bottom: 40px;
+}
+body footer .footMain .contactFoot .adressFoot i,
+body footer .footMain .contactFoot .phoneFoot i,
+body footer .footMain .contactFoot .mailFoot i,
+body footer .footMain .contactFoot .siteFoot i {
+  float: left;
+  margin-right: 30px;
+}
+body .copy {
+  background: #030100;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Lato Bold", sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: -10px;
+}
